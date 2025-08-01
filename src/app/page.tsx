@@ -4,8 +4,8 @@ import Image from "next/image";
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
-import MyProjects from "./components/ui/myprojects";
-import Slider from "./components/ui/slider";
+import MyProjects from "./components/myprojects";
+import Slider from "./components/slider";
 
 const Home = () => {
   return (
