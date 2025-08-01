@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
+import LinksUteis from "./components/links-uteis";
 import MyProjects from "./components/myprojects";
 import Slider from "./components/slider";
 
@@ -63,10 +64,12 @@ const Home = () => {
           </a>
         </div>
 
-        {/* slider section */}
+        {/* slider section component */}
         <Slider />
-
+        {/* my projects section component */}
         <MyProjects />
+        {/* links uteis section component */}
+        <LinksUteis />
       </div>
     </div>
   );
