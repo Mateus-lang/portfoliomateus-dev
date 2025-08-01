@@ -10,13 +10,16 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
+const sortImportsRule =
+  process.env.NODE_ENV === "production" ? "warn" : "error";
+
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     plugins: { "simple-import-sort": simpleImportSort },
     rules: {
-      "simple-import-sort/imports": "error",
-      "simple-import-sort/exports": "error",
+      "simple-import-sort/imports": sortImportsRule,
+      "simple-import-sort/exports": sortImportsRule,
     },
   },
 ];
