@@ -22,6 +22,11 @@ export default function RootLayout({
       <body className={`${comfortaa.className} dark antialiased`}>
         {children}
       </body>
+      <footer>
+        <div className="flex items-center justify-center  text-white py-4">
+          <p>© 2025 Mateus Almeida.</p>
+        </div>
+      </footer>
     </html>
   );
 }

@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Portfólio Pessoal - Mateus Almeida
+Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi criado com o objetivo de apresentar minhas habilidades, destacar os projetos nos quais trabalhei e contar um pouco da minha jornada como Desenvolvedor de Software.
 
-## Getting Started
+✨ Acesse a versão online aqui!
+https://portfoliomateus-dev.vercel.app/
 
-First, run the development server:
+🚀 Sobre o Projeto
+Este portfólio foi desenvolvido utilizando as tecnologias mais modernas do ecossistema JavaScript, com foco em performance, design responsivo e uma experiência de usuário agradável. A estrutura foi pensada para ser limpa, escalável e fácil de manter.
 
-```bash
+Principais Funcionalidades
+🎨 Design Moderno e Responsivo: Interface construída com Tailwind CSS e Shadcn/UI, garantindo uma visualização perfeita em desktops, tablets e celulares.
+
+💡 Modo Escuro (Dark Mode): Tema escuro elegante e confortável para os olhos, implementado com as variáveis de tema do Tailwind CSS.
+
+🚀 Slider de Habilidades Animado: Uma vitrine dinâmica e contínua que exibe minhas principais competências técnicas de forma visualmente interessante.
+
+📬 Formulário de Contato Funcional: Um formulário de contato que utiliza Next.js API Routes e o serviço Resend para enviar os dados preenchidos diretamente para o meu e-mail, garantindo que nenhuma oportunidade de networking seja perdida.
+
+📂 Seção de Projetos Detalhada: Um espaço dedicado para apresentar meus principais trabalhos, com descrições, tecnologias utilizadas e destaques técnicos.
+
+🛠️ Tecnologias Utilizadas
+Este projeto foi construído com uma stack moderna e robusta:
+
+Tecnologia	Descrição
+Next.js	Framework React para produção, com renderização no servidor e geração de sites estáticos.
+React	Biblioteca para construir interfaces de usuário interativas.
+TypeScript	Superset do JavaScript que adiciona tipagem estática ao código.
+Tailwind CSS	Framework CSS utility-first para criar designs customizados rapidamente.
+Shadcn/UI	Coleção de componentes de UI reutilizáveis e acessíveis.
+Resend	Plataforma para envio de e-mails transacionais a partir da API.
+ESLint & Prettier	Ferramentas para garantir a qualidade e a consistência do código.
+Vercel	Plataforma de deploy otimizada para projetos Next.js.
+
+
+📁 Projetos em Destaque
+Abaixo estão alguns dos projetos apresentados neste portfólio:
+
+1. Finance.AI
+Descrição: Uma plataforma de gestão financeira que usa Inteligência Artificial para monitorar movimentações e oferecer insights personalizados.
+
+Stack: Next.js, React, Tailwind CSS, PostgreSQL, Prisma, Clerk, Stripe, OpenAI.
+
+Destaques: Integração com OpenAI para relatórios, pagamentos com Stripe e uso de Server Actions do Next.js.
+
+
+🚀 Como Executar o Projeto Localmente
+Siga os passos abaixo para rodar este projeto na sua máquina.
+
+Clone o repositório:
+
+Bash
+
+git clone https://github.com/Mateus-lang/portfoliomateus-dev.git
+Acesse a pasta do projeto:
+
+Bash
+
+cd portfoliomateus-dev
+Instale as dependências:
+
+Bash
+
+npm install
+Configure as variáveis de ambiente:
+
+Crie um arquivo .env.local na raiz do projeto.
+
+Adicione sua chave da API do Resend:
+
+RESEND_API_KEY=sua_chave_de_api_aqui
+Inicie o servidor de desenvolvimento:
+
+Bash
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Abra http://localhost:3000 no seu navegador para ver o resultado.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📫 Contato
+Vamos nos conectar!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+LinkedIn: Mateus Almeida
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+GitHub: @Mateus-lang
 
-## Learn More
+Instagram: @dev.mts
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
